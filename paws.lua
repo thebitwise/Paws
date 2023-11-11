@@ -125,7 +125,7 @@ local function bark()
 end
 util.create_tick_handler(function()
     mood = anim_names[math.random(#anim_names)]
-    pluto_switch mood do
+    switch mood do
         case "jump":
             for _ = 1, 50 do 
                 move_dog_x(0.0011)
