@@ -7,8 +7,7 @@
 --$$$$$$$$\ $$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\ 
 --\________|\__|  \__|\__|  \__| \______/ \________|
 -- coded by Lance/stonerchrist on Discord
-
-
+pluto_use "0.5.0"
 local animations = {
     jump = {1, 11},
     idle = {14, 18},
